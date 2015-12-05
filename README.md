@@ -22,21 +22,22 @@
 
 
 핀배치는 다움과 같습니다. 
-
- 아두이노 나노   GY-521
- vcc              vcc
- gnd              gnd
- sda              A4 
- scl              A5 
+| 아두이노 나노  | GY-521 |
+| :------------ | -----------: |
+| vcc           |   vcc       |
+| gnd           |   gnd       |
+| sda           |   A4        |
+| scl           |   A5        |
  
  
- 아두이노 나노     Common Anode RGB LED
- 3                 red 1
- 2                 5V
- 5                 green 1
- 6                 red 2
- 9                 green 2 
- 10                red 3
- 11                green 3
+|아두이노 나노  |   Common Anode RGB LED  |
+| :------------ | -----------: |
+| 3             |    red 1     | 
+| 2             |    5V     | 
+| 5             |    green 1     | 
+| 6             |    red 2     | 
+| 9             |    green 2      | 
+| 10            |    red 3     | 
+| 11            |    green 3     | 
  
  * 아두이노 나노에 5V핀이 하나뿐이어서 2번 핀을 항상 5V가 출력되도록 설정했습니다. 

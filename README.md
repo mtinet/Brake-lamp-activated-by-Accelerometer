@@ -32,9 +32,7 @@
 
 
  - 아두이노 나노와 Common Anode RGB LED 연결
- - 
- 
-
+  
 |아두이노 나노   |   Common Anode RGB LED  |
 | :------------: | : --------------------: |
 | 3              |    red 1                | 

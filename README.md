@@ -31,6 +31,18 @@
 | scl           |   A5        |
 
 
+
+ - 아두이노 나노와 가속도 센서 연결
+  
+| 아두이노 나노  | GY-521 |
+| :------------: | :-----------: |
+| vcc           |   vcc       |
+| gnd           |   gnd       |
+| sda           |   A4        |
+| scl           |   A5        |
+
+
+
  - 아두이노 나노와 Common Anode RGB LED 연결
   
 |아두이노 나노   |   Common Anode RGB LED  |

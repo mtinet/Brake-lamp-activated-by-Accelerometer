@@ -38,13 +38,13 @@
    
 |아두이노 나노  |   Common Anode RGB LED  |
 | :------------: | : -----------: |
-| 3             |    red 1     | 
-| 2             |    5V     | 
-| 5             |    green 1     | 
-| 6             |    red 2     | 
+| 3             |    red 1        | 
+| 2             |    5V           | 
+| 5             |    green 1      | 
+| 6             |    red 2        | 
 | 9             |    green 2      | 
-| 10            |    red 3     | 
-| 11            |    green 3     | 
+| 10            |    red 3        | 
+| 11            |    green 3       | 
 
    
  

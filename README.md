@@ -18,7 +18,7 @@
  - -7보다 작으면 급가속(녹색LED 3개 빠르게 깜빡임)
 
 4. 테스트
-5. 
+
 [![테스트 영상 링크](https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp )](https://www.youtube.com/watch?v=LDO5WssF9eo)
 
 5. 핀배치는 다음과 같습니다. 

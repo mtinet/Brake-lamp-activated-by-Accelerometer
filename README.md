@@ -18,13 +18,9 @@
  - -7보다 작으면 급가속(녹색LED 3개 빠르게 깜빡임)
 
 4. 테스트
-<a href="https://www.youtube.com/watch?v=LDO5WssF9eo" target="_blank"><img src="https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp " alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
      
 [![테스트 영상 링크](https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp )](https://www.youtube.com/watch?v=LDO5WssF9eo)
-    
-https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp 
-https://www.youtube.com/watch?v=LDO5WssF9eo
+     
 
 5. 핀배치는 다움과 같습니다. 
 ~~~

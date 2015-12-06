@@ -19,7 +19,7 @@
 
 4. 테스트
      
-[![테스트 영상 링크](https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp )](https://www.youtube.com/watch?v=LDO5WssF9eo)
+[![테스트 영상 링크](https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp )](https://www.youtube.com/watch?v=LDO5WssF9eo target="_blank")
      
 
 5. 핀배치는 다움과 같습니다. 

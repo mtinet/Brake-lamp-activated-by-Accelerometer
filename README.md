@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=iJZqKh3rh_E
 
 <iframe width="560" height="315" src="//https://goo.gl/photos/LzVKCDUPvHGcpbY27" frameborder="0" allowfullscreen></iframe>
 
-[[embed url=https://goo.gl/photos/LzVKCDUPvHGcpbY27]]
+[[embed url=https://pixabay.com/static/uploads/photo/2014/01/31/06/44/pair-255288_640.jpg]]
 
 5. 핀배치는 다움과 같습니다. 
 ~~~

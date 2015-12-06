@@ -20,6 +20,10 @@
 4. 테스트
 <iframe width="560" height="315" src="//https://www.youtube.com/watch?v=iJZqKh3rh_E" frameborder="0" allowfullscreen></iframe>
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iJZqKh3rh_E" frameborder="0" allowfullscreen></iframe>
+
+
 https://www.youtube.com/watch?v=iJZqKh3rh_E
 
 [[embed url=https://www.youtube.com/watch?v=iJZqKh3rh_E]]

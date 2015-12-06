@@ -18,7 +18,11 @@
  - -7보다 작으면 급가속(녹색LED 3개 빠르게 깜빡임)
 
 4. 테스트
-<iframe width="560" height="315" src="//www.youtube.com/embed/K64mb5KUhhs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//https://www.youtube.com/watch?v=iJZqKh3rh_E" frameborder="0" allowfullscreen></iframe>
+
+https://www.youtube.com/watch?v=iJZqKh3rh_E
+
+[[embed url=https://www.youtube.com/watch?v=iJZqKh3rh_E]]
 
 <iframe width="560" height="315" src="//https://goo.gl/photos/LzVKCDUPvHGcpbY27" frameborder="0" allowfullscreen></iframe>
 

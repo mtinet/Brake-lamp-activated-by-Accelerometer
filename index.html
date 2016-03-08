@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Brake-lamp-activated-by-accelerometer by mtinet</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Brake-lamp-activated-by-accelerometer</h1>
+        <p>brake, lamp, accelerometer, </p>
+
+        <p class="view"><a href="https://github.com/mtinet/Brake-lamp-activated-by-Accelerometer">View the Project on GitHub <small>mtinet/Brake-lamp-activated-by-Accelerometer</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/mtinet/Brake-lamp-activated-by-Accelerometer/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mtinet/Brake-lamp-activated-by-Accelerometer/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mtinet/Brake-lamp-activated-by-Accelerometer">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <hr>
+
+<pre><code> 아두이노 나노, GY-521(가속도 센서), Common Anode RGB LED를 사용한 가속도 센서 반응형 브레이크등입니다. 
+</code></pre>
+
+<hr>
+
+<ol>
+<li><p>자전거와 자동차, 오토바이 등에 활용이 가능할 것 같구요. 차량의 종류에 따라서 감도 조정을 하면 됩니다. 자동차의 실내에서 가속도나 감속도를 파악하는 용도로 사용해도 될 것 같군요. </p></li>
+<li><p>감도 조정은 882~960 사이의 if문의 state 조건에서 하시면 되구요. </p></li>
+<li>
+<p>현재 세팅은 gy-521의 x축을 기준으로 중력가속도를 16이라 했을 때, 다음과 같이 세팅되어 있습니다. </p>
+
+<ul>
+<li>15보다 크면 급감속(빨간LED 3개 빠르게 깜빡임)</li>
+<li>10보다 크면 중감속(빨간LED 2개 느리게 깜빡임)</li>
+<li>5보다 크면 저감속(빨간LED 1개 켜짐)</li>
+<li>-3보다 크면 등속(녹색LED 1개 켜짐)</li>
+<li>-7보다 크면 가속(녹색LED 2개 느리게 깜빡임)</li>
+<li>-7보다 작으면 급가속(녹색LED 3개 빠르게 깜빡임)</li>
+</ul>
+</li>
+<li><p>테스트</p></li>
+</ol>
+
+<p><a href="https://www.youtube.com/watch?v=LDO5WssF9eo"><img src="https://i.ytimg.com/vi_webp/LDO5WssF9eo/mqdefault.webp" alt="테스트 영상 링크"></a></p>
+
+<ul>
+<li>핀배치는 다음과 같습니다. </li>
+</ul>
+
+<pre><code>- 아두이노 나노와 가속도 센서 연결
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="center">아두이노 나노</th>
+<th align="center">GY-521</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">vcc</td>
+<td align="center">vcc</td>
+</tr>
+<tr>
+<td align="center">gnd</td>
+<td align="center">gnd</td>
+</tr>
+<tr>
+<td align="center">sda</td>
+<td align="center">A4</td>
+</tr>
+<tr>
+<td align="center">scl</td>
+<td align="center">A5</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code>- 아두이노 나노와 가속도 센서 연결    
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="center">아두이노 나노</th>
+<th align="center">GY-521</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">3</td>
+<td align="center">red 1</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">5V</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">green 1</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">red 2</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">green 2</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">red 3</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">green 3</td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>아두이노 나노에 5V핀이 하나뿐이어서 2번 핀을 항상 5V가 출력되도록 설정했습니다. </li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/mtinet">mtinet</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
